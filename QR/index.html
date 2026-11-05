@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Swisspreneur Syndicate QR</title>
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#fdf4f2">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap">
+<style>
+  :root { --ground: #fdf4f2; --coral: #e14f47; --coral-ink: #c63c35; --ink: #1c1c1c; --ink-soft: #6b6262; --line: #f5d2ce; color-scheme: light; }
+  * { box-sizing: border-box; }
+  body { margin: 0; min-height: 100vh; background: var(--ground); color: var(--ink); font-family: 'Montserrat', system-ui, sans-serif;
+    display: flex; align-items: center; justify-content: center;
+    padding-block: 32px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+  main { width: 100%; max-width: 420px; display: flex; flex-direction: column; gap: 18px; text-align: center; }
+  h1 { margin: 0; font-size: 26px; font-weight: 600; letter-spacing: -0.02em; }
+  h1 em { font-style: normal; color: var(--coral); }
+  .card { background: #fff; border: 1px solid var(--line); padding: 20px; }
+  .card img { display: block; width: 100%; height: auto; }
+  .url { font-size: 14px; color: var(--ink-soft); margin: 0; }
+  .url a { color: var(--coral-ink); font-weight: 600; }
+  .row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .btn { display: flex; align-items: center; justify-content: center; min-height: 48px; font-weight: 700; font-size: 15px; text-decoration: none; }
+  .btn.primary { background: var(--coral); color: #fff; }
+  .btn.secondary { border: 1.5px solid var(--ink); color: var(--ink); background: #fff; }
+  .btn:focus-visible, .url a:focus-visible { outline: 2px solid #3548ff; outline-offset: 2px; }
+  .hint { font-size: 12.5px; color: var(--ink-soft); margin: 0; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Swisspreneur <em>Syndicate</em></h1>
+  <div class="card"><img src="swisspreneur-syndicate-qr.svg" width="1200" height="1200" alt="QR code linking to swisspreneur.github.io/syndicate"></div>
+  <p class="url">Opens <a href="../">swisspreneur.github.io/syndicate</a></p>
+  <div class="row">
+    <a class="btn primary" href="swisspreneur-syndicate-qr.png" download>Download PNG</a>
+    <a class="btn secondary" href="swisspreneur-syndicate-qr.svg" download>Download SVG</a>
+  </div>
+  <p class="hint">PNG for screens and slides. SVG for print.</p>
+</main>
+</body>
+</html>
