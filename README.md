@@ -1,6 +1,6 @@
-# Swisspreneur Syndicate
+# Swisspreneur Investments
 
-Public explainer page for Swisspreneur Syndicate: For Startups, For Investors, and Apply for funding.
+Public explainer page for Swisspreneur Investments: For Startups, For Investors, and Apply for funding.
 
 Live: https://swisspreneur.github.io/syndicate/
 
